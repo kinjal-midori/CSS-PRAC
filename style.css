@@ -1,0 +1,74 @@
+.d1{
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto ;
+    position: relative;
+    text-align: center;
+    border: dotted  5px  rgb(255, 255, 255);
+    border-width: 8.5px 5px;
+    border-radius: 250px 250px;
+}
+.d1-1-1-1{
+    width:100px;
+    height:100px;
+    background-color: rgb(255, 223, 44);
+    border-radius: 100px;
+    position: absolute;
+    margin: 200px;
+}
+.d1-1-1{
+    width:200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 100px;
+    position: absolute;
+    margin: 150px;
+}
+.d1-1{
+    width:300px;
+    height: 300px;
+    background-color: rgb(255, 65, 31);
+    position: absolute;
+    margin: 100px 100px;
+    border-radius: 0 150px;
+    transform : rotate(135deg); 
+}    
+/* THIS PART OF THE CODE JUST FOR THE EMBLEM*/
+
+
+
+
+body{
+    margin: 0;
+    text-align: center;
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 5.562rem;
+    margin: 0;
+    line-height: 80px;
+}
+h2{
+    font-size: 2.25rem;
+    font-weight: normal;    
+    line-height: 150px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 65, 31);
+}
+#top{
+    background-color: rgb(253, 225, 148);
+    padding: 200px 0 100px;
+    text-align: center;
+    position: relative;
+}
+.div-face{
+    margin: 50px auto;
+    background-color: rgb(206, 206, 206);
+    width: 300px;
+    height: 300px;
+    position: relative;
+    text-align: center;
+    border: dotted  5px  rgb(0, 0, 0);
+    border-width: 5px 8.5px;
+    border-radius: 150px 150px;
